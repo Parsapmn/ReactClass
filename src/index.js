@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import hello from './hello';
+import Hello from './Component/Hello';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 function Hello(props){
@@ -28,12 +28,11 @@ var zahra;
 var morvarid;
 root.render(
   <React.StrictMode>
-    <div >
-      ss
-    <hello name="omid" age="35" handler={()=>click("omid")}/>
-    
-    </div>
+    < Hello name="omid"/>
+   
   </React.StrictMode>
+
+
 );
 
 // If you want to start measuring performance in your app, pass a function
