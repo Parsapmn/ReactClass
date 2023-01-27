@@ -8,6 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 var milad;
 var omid;
 var omid2;
+var parsa2;
 root.render(
   <React.StrictMode>
     <App />
