@@ -26,6 +26,7 @@ var bahar;
 var milad;
 var zahra;
 var morvarid;
+var omid2;
 root.render(
   <React.StrictMode>
     <div >
