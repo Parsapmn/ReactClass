@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import hello from './hello';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-var 123;
+var milllad;
 function Hello(props){
   return <div>Hello {props.name}</div>
 }
